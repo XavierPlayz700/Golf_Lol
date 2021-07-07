@@ -4,7 +4,6 @@ class Driver {
       density : 4,
       friction : 1.0,
       restitution : 0.5,
-      isStatic : true
     }
 
     this.body = Bodies.rectangle(x, y, 200, 20, options);
@@ -15,6 +14,8 @@ class Driver {
 
   display(){
     var pos = this.body.position;
+    pos.x = mouseX;
+    pos.y = mouseY;
 
     var angle = this.body.angle;
     angle = mouseX;

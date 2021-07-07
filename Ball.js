@@ -4,8 +4,8 @@ class Ball {
 	// assign options to the rubber ball
 	    var options = {
 			restitution : 0.3,
-			friction : 2,
-			density : 1,
+			friction : 1.0,
+			density : 1.0,
 		}
 
 		this.x = x;

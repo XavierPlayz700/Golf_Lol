@@ -4,6 +4,7 @@ class Driver {
       density : 4,
       friction : 1.0,
       restitution : 0.5,
+      isStatic : true
     }
 
     this.body = Bodies.rectangle(x, y, 250, 20, options);

@@ -12,7 +12,7 @@ function setup(){
     world = engine.world;
 
     plane = new Plane(width / 2, height, width, 20);
-    hammer = new Driver(width / 6.5, plane.body.position.y - 110);
+    hammer = new Driver(width / 6.5, plane.body.position.y - 125);
     ball = new Ball(width / 5.5, plane.body.position.y - 70, 15);
 
     console.log(hammer.body.collisionFilter.group);
